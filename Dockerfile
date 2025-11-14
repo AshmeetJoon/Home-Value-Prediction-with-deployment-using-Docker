@@ -21,4 +21,5 @@ COPY . .
 EXPOSE 8000
 
 # 7. Define the command to run your app
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "app:app"]# 1. Add the saved versions
+# This is the corrected line:
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "app:app"]

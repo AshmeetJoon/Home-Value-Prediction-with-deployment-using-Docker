@@ -1,0 +1,9 @@
+# For the web API
+flask
+gunicorn  # A production server for Flask
+
+# For the ML model
+numpy
+scikit-learn  # Often needed for pre-processing or by joblib
+xgboost       # To run the model
+joblib        # To load the .pkl file (if you used it)
